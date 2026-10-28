@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Monoskrypt RP</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- EKRAN ŁADOWANIA -->
+
+        <section
+            id="loading-screen"
+            class="screen active"
+        >
+            <div class="loading-container">
+
+                <div class="brand">
+                    <span class="brand-main">MONOSKRYPT</span>
+                    <span class="brand-sub">ROLEPLAY</span>
+                </div>
+
+                <div class="loading-status">
+                    <span id="loading-text">
+                        Inicjalizowanie sesji...
+                    </span>
+                </div>
+
+                <div class="loading-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- WYBÓR POSTACI -->
+
+        <section
+            id="character-screen"
+            class="screen"
+        >
+
+            <div class="character-container">
+
+                <header class="character-header">
+
+                    <div>
+                        <span class="eyebrow">
+                            MONOSKRYPT RP
+                        </span>
+
+                        <h1>
+                            Wybierz postać
+                        </h1>
+
+                        <p>
+                            Wybierz postać, którą chcesz kontynuować grę.
+                        </p>
+                    </div>
+
+                </header>
+
+
+                <div
+                    id="character-list"
+                    class="character-list"
+                >
+                    <!--
+                        Karty postaci zostaną wygenerowane
+                        dynamicznie przez JavaScript.
+                    -->
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
